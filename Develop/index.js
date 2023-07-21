@@ -1,8 +1,7 @@
 // Packages needed for this application
 const fs = require('fs');
-const { default: inquirer } = require('inquirer');
-const path = inquirer('path');
-const generateMarkdown = require('./generateMardown.js');
+const inquirer = require('inquirer');
+const generateMarkdown = require('./generateMarkdown');
 
 
 // An array of questions for user input
@@ -20,7 +19,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "dicription",
+        name: "description",
         message: "What does your project accomplish?"
     },
     {
@@ -63,7 +62,7 @@ const questions = [
 
 // Function to write the README content to a file
 function writeFile(data) {
-    fs.writeFile('./Assets/READMEsample.md', generateMarkdown(data), (err) => {
+    fs.writeFile(filePath, generateMarkdown(data), (err) => {
       if (err) {
         console.error('Error writing to file:', err);
       } else {
