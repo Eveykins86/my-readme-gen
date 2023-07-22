@@ -84,7 +84,7 @@ ${data.contents ? '## Table of Contents\n' +
   '- [Contribution](#contribution)\n' +
   '- [Tests](#tests)\n' +
   '- [License](#license)\n' +
-  '- [Qustions](#qustions)\n' : ''}
+  '- [Questions](#questions)\n' : ''}
 
 ## Installation
 ${data.installation}
