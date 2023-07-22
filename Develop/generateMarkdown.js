@@ -83,7 +83,8 @@ ${data.contents ? '## Table of Contents\n' +
   '- [Usage](#usage)\n' +
   '- [Contribution](#contribution)\n' +
   '- [Tests](#tests)\n' +
-  '- [License](#license)\n' : ''}
+  '- [License](#license)\n' +
+  '- [Qustions](#qustions)\n' : ''}
 
 ## Installation
 ${data.installation}
@@ -97,7 +98,15 @@ ${data.contribution}
 ## Tests
 ${data.tests}
 
+## License
 ${licenseSection}
+
+## Questions
+If you have any questions, you can find me on GitHub:
+GitHub: [${data.github}](https://github.com/${data.github})
+
+Feel free to reach out via email:
+Email: ${data.email}
 `;
 }
 

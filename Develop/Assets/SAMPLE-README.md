@@ -1,7 +1,7 @@
-# MY-README-GEN
+# Sample README.md
 
 ## Description
-A profesional README.md genorator to assist you in creating the README file for your next project and all your future projects. This app uses NODEJS and Inquierer to create the framework for all your README needs.
+A sample README.md for homework assignment
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,19 +13,18 @@ A profesional README.md genorator to assist you in creating the README file for 
 
 
 ## Installation
-Just run the npm install to get the inquirer installed and you will be ready to get started.
+Run npm install to install the requierer in the package.
 
 ## Usage
-Once the npm is installed type node .\index.js and answer the questions. It's that easy.
+To have a sample README.md
 
 ## Contribution
-Just me being awesome!
+None
 
 ## Tests
-Here is a video demo of the app in action:
+Run node .\index.js to start the application.
 
-https://drive.google.com/file/d/1G6ZPRD7PWvaDRhRgDxV7MeqS45csDvyG/view
-
+## License
 ## License
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -37,5 +36,3 @@ GitHub: [Eveykins86](https://github.com/Eveykins86)
 
 Feel free to reach out via email:
 Email: evey.plt@gmail.com
-
-Happy Coding!
