@@ -18,12 +18,12 @@ Just run the npm install to get the inquirer installed and you will be ready to 
 Once the npm is installed type node .\index.js and answer the questions. It's that easy.
 
 ## Contribution
-Just be awesome!
+Just me being awesome!
 
 ## Tests
 Here is a video demo of the app in action:
 
-
+https://drive.google.com/file/d/1G6ZPRD7PWvaDRhRgDxV7MeqS45csDvyG/view
 
 ## License
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
