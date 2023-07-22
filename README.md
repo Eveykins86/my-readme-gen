@@ -39,9 +39,11 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Questions
 If you have any questions, you can find me on GitHub:
+
 GitHub: [Eveykins86](https://github.com/Eveykins86)
 
 Feel free to reach out via email:
+
 Email: evey.plt@gmail.com
 
 Happy Coding!
