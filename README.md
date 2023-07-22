@@ -26,6 +26,12 @@ Here is a video demo of the app in action:
 
 https://drive.google.com/file/d/1G6ZPRD7PWvaDRhRgDxV7MeqS45csDvyG/view
 
+Here is a screen shot of the sample README.md that can be located in the Example folder C:\Users\Eveyp\source\repos\my-readme-gen\Develop\Example\README.md
+
+![Example](./Develop/Example/ExampleReadme.png)
+
+---
+
 ## License
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
