@@ -107,7 +107,8 @@ GitHub: [${data.github}](https://github.com/${data.github})
 
 Feel free to reach out via email:
 Email: ${data.email}
-`;
+
+Happy Coding!;
 }
 
 module.exports = generateMarkdown;
