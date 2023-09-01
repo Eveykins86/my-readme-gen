@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
   if (!license) {
     return ''; // If no license is provided, return an empty string
@@ -38,7 +38,7 @@ const license4 = 'Eclipse Public License 2.0';
 const badge4 = renderLicenseBadge(license4);
 console.log(badge4); // Output: ![License](https://img.shields.io/badge/License-EPL%202.0-red.svg)
 
-// TODO: Create a function that returns the license link
+// Function that returns the license link
 function renderLicenseLink(license) {
   if (!license) {
     return ''; // If no license is provided, return an empty string
@@ -58,7 +58,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// Function that returns the license section of README
 function renderLicenseSection(license) {
   const badge = renderLicenseBadge(license);
   const link = renderLicenseLink(license);
@@ -108,7 +108,7 @@ GitHub: [${data.github}](https://github.com/${data.github})
 Feel free to reach out via email:
 Email: ${data.email}
 
-Happy Coding!;
+Happy Coding!`;
 }
 
 module.exports = generateMarkdown;
